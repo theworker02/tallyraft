@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tallyraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tally CSV/TSV raft tables for quick inspection and cleanup.",
+  "bin": {
+    "tallyraft": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tallyraft.git"
+  },
+  "homepage": "https://theworker02.github.io/tallyraft/",
+  "keywords": [
+    "tally",
+    "raft",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
